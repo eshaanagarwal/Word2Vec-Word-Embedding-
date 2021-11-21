@@ -18,3 +18,7 @@ is to use the cosine of the angle between the vectors. For example, words like �
 should be closer together than the words “mom” and “ketchup” or “dad” and “butter”.
 Word embeddings are created using a neural network with one input layer, one hidden layer and
 one output layer
+
+# Model Architecture 
+![Model Image](model.png)
+![Model1 Image](wordemd1.png)
