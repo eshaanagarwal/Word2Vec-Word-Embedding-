@@ -22,3 +22,14 @@ one output layer
 # Model Architecture 
 ![Model Image](model.png)
 ![Model1 Image](wordemd1.png)
+
+## Problem Faced :
+Since the dataset was very big , it was difficult to process it and implement and i was
+getting IOPubbed data rate exceeded error and my google colab crashed every time i
+tried to train my network.
+Solution : I used keras data generator to handle this big output by dividing the data
+into batches of size 400 which were called whenever my network trained itself.
+![Keras Data Genarator Image](keras.png)
+
+# Result
+![Result Image](resultimg.png)
